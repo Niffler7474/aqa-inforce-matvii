@@ -1,0 +1,62 @@
+Check that the room can be booked with valid data
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+pick valid date
+write valid firstname
+write valid lastname
+write valid email
+write valid phone
+click "Book"
+
+Check that the room can’t be booked with invalid data
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+pick valid date
+write invalid firstname
+write valid lastname
+write valid email
+write valid phone
+click "Book"
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+pick valid date
+write valid firstname
+write invalid lastname
+write valid email
+write valid phone
+click "Book"
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+pick valid date
+write valid firstname
+write valid lastname
+write invalid email
+write valid phone
+click "Book"
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+pick valid date
+write valid firstname
+write invalid lastname
+write valid email
+write invalid phone
+click "Book"
+
+
+
+
+Check that the earlier booked dates show as Unavailable
+
+enter the https://automationintesting.online/ page
+click "Book this room" button
+already picked date
+write valid firstname
+write valid lastname
+write valid email
+write valid phone
+click "Book"
